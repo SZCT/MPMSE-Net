@@ -8,5 +8,14 @@ The model integrates high-rate GNSS displacement and strong-motion velocity wave
 - Normalized slip distribution
 - Final slip distribution reconstructed from maximum slip and normalized slip distribution
 
-Only the model structure is released. 
+## Provided Files
 
+- `models/model.py`: main model definition
+- `models/model_parts.py`: model building blocks
+- `models/data.py`: dataset and input loading utilities
+- `models/trainer.py`: training and validation logic
+- `models/losses.py`: loss functions
+- `models/metrics.py`: evaluation metrics
+- `models/config.py`: configuration definitions
+- `train.py`: training entry point
+- `config.example.json`: reference configuration file
